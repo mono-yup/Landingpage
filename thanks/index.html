@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Got your photo | See Your Yard</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-PLACEHOLDER');
+  gtag('config', 'AW-PLACEHOLDER');
+
+  // The GHL form redirects here after a successful submit, so this page load IS the conversion.
+  // TODO: replace with the real "AW-XXXXXXXXX/conversionLabel" from Google Ads. Skipped while it is still a placeholder.
+  var CONVERSION_SEND_TO = 'AW-PLACEHOLDER/CONVERSION-LABEL-PLACEHOLDER';
+  if (!/PLACEHOLDER/.test(CONVERSION_SEND_TO)) {
+    gtag('event', 'conversion', { 'send_to': CONVERSION_SEND_TO });
+  }
+</script>
+
+<style>
+  :root{--slate:#1F2C35;--gold:#E0B22E;--alkali:#F5F7F4;--muted:#42525C;
+    --head:"Archivo","Helvetica Neue",Arial,sans-serif;--body:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--alkali);color:var(--slate);font:400 1.0625rem/1.6 var(--body)}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--slate);outline-offset:3px}
+  .wrap{max-width:40rem;margin:0 auto;padding:3rem 1.25rem}
+  .wordmark{font:800 1.3rem/1 var(--head);font-stretch:112%;letter-spacing:-.01em;text-decoration:none}
+  h1{font:800 clamp(2.1rem,7vw,3.2rem)/1.05 var(--head);font-stretch:112%;letter-spacing:-.02em;margin:2.25rem 0 1rem}
+  p{margin:.75rem 0}
+  .rule{width:4rem;height:4px;background:var(--gold);border:0;margin:0}
+  .small{color:var(--muted);font-size:.95rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="wordmark" href="../">See Your Yard</a>
+
+  <h1>Got your photo.</h1>
+  <hr class="rule">
+  <p>We're building your preview now. A person at Flores Landscape &amp; Services checks it, then we text it to the number you gave us, usually within one business day. There's nothing else you need to do.</p>
+  <p>If you don't see a text by then, check that the number was right, or call us at <a href="tel:+17754449650">(775) 444-9650</a>.</p>
+  <p class="small">The preview is a concept picture, not a quote. Reply STOP to any of our texts to opt out. <a href="../privacy/">Privacy Policy</a> &middot; <a href="../terms/">Terms</a></p>
+</div>
+</body>
+</html>
