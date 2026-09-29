@@ -40,6 +40,28 @@
   .rule{width:4rem;height:4px;background:var(--gold);border:0;margin:0}
   .small{color:var(--muted);font-size:.95rem}
 </style>
+<!-- Meta Pixel Code (See Your Yard - Pixel) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1131244849330473');
+fbq('track', 'PageView');
+// The GHL form redirects here after a successful submit, so this page load is the lead.
+// The session flag stops a refresh or back-button revisit from counting a second lead.
+try {
+  if (!sessionStorage.getItem('syy_lead')) { fbq('track', 'Lead'); sessionStorage.setItem('syy_lead', '1'); }
+} catch (e) { fbq('track', 'Lead'); }
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1131244849330473&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 <div class="wrap">
